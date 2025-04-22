@@ -1,7 +1,6 @@
 mkdir -p data
 
-wget https://www.rondhuit.com/download/ldcc-20140209.tar.gz
-mv ./ldcc-20140209.tar.gz ./data/
+curl -L -o ./data/ldcc-20140209.tar.gz https://www.rondhuit.com/download/ldcc-20140209.tar.gz
 cd data
 tar -zxvf ./ldcc-20140209.tar.gz
 cd ..
